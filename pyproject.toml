@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ytv"
+version = "0.1.0"
+description = ""
+authors = ["damienlancry <damien.lancry@dathena.io>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+networkx = "^2.6.3"
+spotipy = "^2.19.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
