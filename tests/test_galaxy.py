@@ -1,4 +1,4 @@
-from ytv import __version__
+from galaxy import __version__
 
 
 def test_version():
